@@ -1,5 +1,5 @@
 # react-hooks-concepts
-In this we have explained new concepts in react hooks. as In new react hooks now the component is functional not class based
+In this we have explained new concepts in react hooks. as In new react hooks now the component is functional and not class based
 
 # React-Hooks
 
@@ -7,9 +7,10 @@ Implementation of react-Hooks.
 
 ## useState Hook
 
-This hooks replaces the use of states in component with this hook in a functional component.
+This hooks replaces the use of states in a functional component.
 
 ```
+// Counter Component
 const Counter = () => {
   const [counter, setCounter] = useState(0);
   return (
